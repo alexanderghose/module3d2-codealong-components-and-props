@@ -3,6 +3,7 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import FounderListItem from './components/FounderListItem/FounderListItem';
+import Footer from './components/Footer/Footer';
 
 const founders = [
   {
@@ -49,6 +50,7 @@ const App = () => {
           founders.map(x => <FounderListItem name={x.name} title={x.title} credential={x.credential} />)
         }
       </ul>
+      <Footer year={2024} />
     </>
   );
 };
