@@ -1,0 +1,10 @@
+/* src/index.css */
+
+#top-navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.p0 {
+  padding: 0;
+}
